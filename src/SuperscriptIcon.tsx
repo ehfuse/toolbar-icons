@@ -1,7 +1,7 @@
 export function SuperscriptIcon({ ...props }) {
     return (
         <svg
-            width={props.width ?? "19px"}
+            width={props.width ?? "20px"}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
             {...props}

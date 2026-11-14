@@ -2,7 +2,7 @@ export function DocumentIcon({ ...props }) {
     return (
         <svg
             fill="currentColor"
-            width={props.width ?? "18px"}
+            width={props.width ?? "20px"}
             viewBox="0 0 1024 1024"
             xmlns="http://www.w3.org/2000/svg"
             {...props}

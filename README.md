@@ -14,7 +14,7 @@ import { BoldIcon, UndoIcon, FontColorIcon } from "@ehfuse/toolbar-icons";
 <FontColorIcon barColor="#d93025" />
 ```
 
-Icons draw with `currentColor` (set the color on the button). Every icon takes normal SVG props; `width` defaults to 16–20px.
+Icons draw with `currentColor` (set the color on the button). Every icon takes normal SVG props; `width` (and `height` where set) default to 20px.
 `FontColorIcon` takes `barColor` (the bar under the glyph), `FontFillIcon` takes `fillColor`.
 
 | Group | Icons |

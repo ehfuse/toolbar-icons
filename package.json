@@ -1,6 +1,6 @@
 {
     "name": "@ehfuse/toolbar-icons",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Toolbar icons (React SVG) shared by @ehfuse/editor, @ehfuse/outliner and @ehfuse/mindmap — format, align, list, undo, zoom, branch",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",

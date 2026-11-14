@@ -1,13 +1,14 @@
 import React from "react";
 
-export const FullScreenIcon: React.FC = () => {
+export const FullScreenIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => {
     return (
         <svg
-            width="18"
-            height="18"
+            width={props.width ?? "20px"}
+            height={props.height ?? "20px"}
             viewBox="0 0 18 18"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            {...props}
         >
             {/* 외부 테두리 (rounded) */}
             <rect

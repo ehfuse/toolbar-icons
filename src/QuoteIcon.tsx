@@ -1,7 +1,7 @@
 export function QuoteIcon({ ...props }) {
     return (
         <svg
-            width={props.width ?? "16px"}
+            width={props.width ?? "20px"}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
             {...props}
