@@ -1,0 +1,49 @@
+{
+    "name": "@ehfuse/toolbar-icons",
+    "version": "0.1.0",
+    "description": "Toolbar icons (React SVG) shared by @ehfuse/editor, @ehfuse/outliner and @ehfuse/mindmap — format, align, list, undo, zoom, branch",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "sideEffects": false,
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.esm.js",
+            "require": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "node build.js",
+        "typecheck": "tsc --noEmit -p tsconfig.json",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "react",
+        "icons",
+        "svg",
+        "toolbar",
+        "editor"
+    ],
+    "author": "김영진 (Kim Young Jin) <ehfuse@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ehfuse/toolbar-icons.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "react": "^17.0.0 || ^18.0.0 || ^19.0.0"
+    },
+    "devDependencies": {
+        "@types/react": "^19.0.0",
+        "esbuild": "^0.24.0",
+        "react": "^19.0.0",
+        "typescript": "^5.6.3"
+    }
+}

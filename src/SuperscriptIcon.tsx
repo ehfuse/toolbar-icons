@@ -1,0 +1,17 @@
+export function SuperscriptIcon({ ...props }) {
+    return (
+        <svg
+            width={props.width ?? "19px"}
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            {...props}
+        >
+            <path
+                d="M7.54 4L.849 19h1.09l2.24-5h7.645l2.239 5h1.09L8.459 4zm-2.915 9L8 5.464 11.375 13zM23 8v1h-5.975v-1.49c4.736-4.126 4.93-4.138 4.93-5.01 0-1.962-3.614-1.869-3.985-.39l-.97-.243c.662-2.633 5.954-2.525 5.954.633 0 1.308-.423 1.58-4.93 5.5z"
+                stroke="currentColor"
+                strokeWidth="1"
+            />
+            <path fill="none" d="M0 0h24v24H0z" />
+        </svg>
+    );
+}
