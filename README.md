@@ -15,7 +15,7 @@ import { BoldIcon, UndoIcon, FontColorIcon } from "@ehfuse/toolbar-icons";
 ```
 
 Icons draw with `currentColor` (set the color on the button). Every icon takes normal SVG props; `width` defaults to 16–20px.
-`FontColorIcon` / `FontFillIcon` take `barColor` for the color bar under the glyph.
+`FontColorIcon` takes `barColor` (the bar under the glyph), `FontFillIcon` takes `fillColor`.
 
 | Group | Icons |
 | --- | --- |
@@ -26,3 +26,5 @@ Icons draw with `currentColor` (set the color on the button). Every icon takes n
 | Mind map | `BranchBothIcon` `BranchRightIcon` `BranchLeftIcon` `ChildBranchIcon` `SiblingBranchIcon` `PencilIcon` `TrashIcon` |
 
 License: MIT
+
+`BranchBothIcon` · `BranchRightIcon` · `BranchLeftIcon` are the layout icons of [Mind Elixir](https://github.com/SSShooter/mind-elixir-core) (MIT).
